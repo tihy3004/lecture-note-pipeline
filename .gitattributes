@@ -1,0 +1,17 @@
+# Normalize all text files to LF in the repository, regardless of OS.
+* text=auto eol=lf
+
+# Explicit text types
+*.md   text
+*.txt  text
+*.yml  text
+*.yaml text
+
+# Binary types — never convert
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.m4a  binary
+
+# Keep diffs readable for generated/vendored files
+package-lock.json  -diff

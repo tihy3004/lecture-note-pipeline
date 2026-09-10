@@ -1,0 +1,18 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Obsidian local state (never commit vault-local config with this skill)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
+
+# Transcripts and personal notes — this repo ships the skill only
+*.txt
+!requirements.txt
